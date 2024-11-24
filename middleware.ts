@@ -5,5 +5,5 @@ export default NextAuth(authConfig).auth;
 
 export const config = {
     // https://next.js.org/docs/app/building-your-app/routing/middleware#matcher
-    mtacher: ['/((?api|_next/static|_next/image|.*\\.png$).*)'],
+    matcher: ['/((?api|_next/static|_next/image|.*\\.png$).*)'],
 };
